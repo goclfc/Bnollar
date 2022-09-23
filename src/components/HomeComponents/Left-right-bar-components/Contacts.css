@@ -1,0 +1,68 @@
+.contacts-wrapper {
+    width: 100%;
+    border: 1px solid #F0F3F4;
+    border-radius: 20px;
+}
+.contacts-header {
+    padding: 15px;
+}
+.contacts-header h1{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.contacts-profile__wrapper {
+
+}
+
+.contacts-profile__wrapper::-webkit-scrollbar {
+    display: none;
+  }
+.contacts-profile-cont {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 15px 20px;
+
+
+
+}
+.contacst-profile-img {
+    width: 36px;
+    height: 36px;
+}
+.contacst-profile-img img {
+    width: 100%;
+}
+.contacts-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.contacts-profile-name-surname a {
+    text-decoration: none;
+
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #000;
+    letter-spacing: 0.004em;
+}
+.active-status  {
+    margin: 5px 0;
+}
+.active-status p {
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    
+    color: #63B015;
+}

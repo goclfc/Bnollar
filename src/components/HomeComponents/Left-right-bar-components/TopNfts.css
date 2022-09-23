@@ -1,0 +1,48 @@
+.topnfts-wrapper {
+    width: 100%;
+    border: 1px solid #F0F3F4;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+.topnfts-title {
+    padding: 15px;
+}
+.topnfts-title h1 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+
+}
+.nft-profile-cont {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 15px 20px;
+}
+.nft-profile-img {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+.nft-profile-img img {
+    width: 100%;
+}
+.nft-profile-name{
+    padding: 0 10px;
+    cursor: pointer;
+}
+.nft-profile-name a {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-decoration: none;
+    color:#000;
+    letter-spacing: 0.004em;
+}
+

@@ -1,0 +1,137 @@
+.resp-navbar {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0.0001px 7px #a8a8a8;
+  height: 50px;
+  display: none;
+}
+.home-resp-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resp-menu {
+  display: flex;
+}
+.resp-menu a {
+  width: 33px;
+  height: 23px;
+  padding: 0 7px;
+}
+
+.resp-menu a img {
+  width: 100%;
+}
+
+.resp-upload input {
+  display: none;
+}
+
+.resp-upload a {
+  text-decoration: none;
+  position: absolute;
+  top: 20%;
+  right: 37%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #292d7d1a;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #292d7d;
+  letter-spacing: 0.004em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resp-bell-chat {
+  display: flex;
+  align-items: center;
+  margin: 0 20px 0 0;
+}
+.resp-bell-chat a {
+  width: 20px;
+  height: 20px;
+  font-size: 25px;
+  padding: 10px;
+  color: rgb(112, 112, 112);
+}
+
+.resp-bell-chat a img {
+  width: 100%;
+}
+.resp-profile-img {
+  width: 40px;
+  height: 40px;
+}
+
+.resp-profile-img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1055px) {
+  .resp-navbar {
+    display: flex;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 408px) {
+  .resp-upload label {
+    width: 30px;
+    height: 30px;
+  }
+
+  .resp-bell-chat a {
+    width: 17px;
+    height: 17px;
+    font-size: 2px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .resp-upload label {
+    width: 30px;
+    height: 36px;
+    top: 25%;
+  }
+  .resp-menu a {
+    width: 28px;
+    height: 28px;
+    margin-top: 17px;
+  }
+
+  .resp-bell-chat a {
+    width: 17px;
+    height: 17px;
+    font-size: 20px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .resp-upload label {
+    width: 22px;
+    height: 22px;
+    top: 28%;
+    right: 42%;
+  }
+  .resp-menu a {
+    width: 25px;
+    height: 25px;
+    padding: 0 9px 0 0;
+  }
+}

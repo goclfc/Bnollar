@@ -1,0 +1,324 @@
+.placeBid-cont {
+  display: flex;
+  flex-direction: column;
+}
+.placeBid-header-cont {
+  width: 100%;
+}
+.placeBid-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paceBid-main-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.placeBid-left-cont {
+  width: 641px;
+  height: 641px;
+}
+.placeBid-left-cont img {
+  width: 100%;
+}
+.placeBid-right-cont {
+  flex: 1;
+  padding: 10px;
+  padding-left: 30px;
+}
+.nft-title-heart-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-text-cont {
+  display: flex;
+  flex-direction: column;
+}
+.title-text-cont h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.title-text-cont p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* identical to box height */
+  color: #7a8290;
+}
+.title-text-cont p span {
+  color: #292d7d;
+}
+.heart-icon-cont {
+  width: 40px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.creator-and-owner-cont {
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+}
+.creator-cont,
+.owner-cont {
+  display: flex;
+  align-items: center;
+}
+.creator-image-cont,
+.owner-image-cont {
+  width: 44px;
+  height: 44px;
+}
+.creator-image-cont img,
+.owner-image-cont img {
+  width: 100%;
+}
+.creator-text,
+.owner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 0 10px;
+}
+
+.creator-text p,
+.owner-text p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #7a8290;
+}
+.creator-text h1,
+.owner-text h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #000000;
+}
+.owner-cont {
+  margin-left: 15px;
+}
+.price-and-time-cont {
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+}
+.curent-price-cont {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #a0a5af;
+  padding-right: 20px;
+}
+.price-cont {
+  display: flex;
+}
+.curent-price-cont h3 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #7a8290;
+}
+.price-cont {
+  margin-top: 10px;
+}
+.price-cont p {
+  margin-left: 7px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #000000;
+}
+.price-cont p span {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #48627e;
+}
+.time-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 20px;
+}
+.time-cont h3 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #7a8290;
+}
+.time-cont p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 35px;
+  /* identical to box height, or 125% */
+  color: #000000;
+}
+.place-bid {
+  margin-top: 20px;
+  border: 0;
+  outline: 0;
+  width: 300px;
+  height: 52px;
+  background: #292d7d;
+  border-radius: 12px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  cursor: pointer;
+  color: #ffffff;
+}
+.bid-history-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.bid-history-cont {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #000000;
+}
+.bid-history-map,
+.minted-map {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.bid-history-item,
+.minted-item {
+  width: 100%;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.bid-item-img-name,
+.minted-item-img-name {
+  display: flex;
+  align-items: center;
+}
+.bid-item-name-hours,
+.minted-item-name-hours {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 10px;
+}
+.bid-item-name-hours h3,
+.minted-item-name-hours h3 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #000000;
+}
+.bid-item-name-hours p,
+.minted-item-name-hours p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #7a8290;
+}
+.crypto-and-dollar {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+.crypto-and-dollar h3 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #000000;
+  text-align: right;
+}
+.crypto-and-dollar p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: right;
+  color: #7a8290;
+  margin-top: 4px;
+}
+.minted {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.minted h3 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #000000;
+}
+
+@media screen and (max-width: 990px) {
+  .paceBid-main-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .placeBid-left-cont {
+    width: 441px;
+    height: 441px;
+  }
+}
+@media screen and (max-width: 419px) {
+  .placeBid-left-cont {
+    width: 341px;
+    height: 341px;
+  }
+}

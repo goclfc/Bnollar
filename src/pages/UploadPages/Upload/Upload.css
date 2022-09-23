@@ -1,0 +1,113 @@
+.upload-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-header {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between;
+}
+.upload-text-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.upload-text-cont h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+
+  /* Black */
+
+  color: #101419;
+}
+
+.upload-text-cont p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 138% */
+
+  letter-spacing: 0.004em;
+
+  /* text secondary */
+
+  color: #566370;
+}
+.post-or-nft-cards-cont {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.upload-post-card,
+.upload-nft-card {
+  width: 350px;
+  height: 314px;
+  border: 1px solid #f0f3f4;
+  background: #ffffff;
+  text-decoration: none;
+  /* line */
+  margin: 30px 7px;
+  border: 1px solid #f0f3f4;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  transition: all 0.5s;
+}
+.upload-post-card:hover,
+.upload-nft-card:hover {
+  box-shadow: 0px 57px 87px -44px rgba(34, 36, 77, 0.2);
+}
+.upload-post-icon,
+.upload-nft-icon {
+  width: 44px;
+}
+
+.upload-post-text,
+.upload-nft-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 270px;
+}
+.nft-span {
+  color: grey;
+}
+.upload-post-text h1,
+.upload-nft-text h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  /* Black */
+  color: #101419;
+}
+
+.upload-post-text p,
+.upload-nft-text p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+  letter-spacing: 0.004em;
+  /* text secondary */
+  color: #566370;
+}

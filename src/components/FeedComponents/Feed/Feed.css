@@ -1,0 +1,73 @@
+.feed {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  margin: 25px auto;
+}
+
+.sort_btns_wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+  margin-top: 24px;
+  margin-left: 5px;
+  width: 100%;
+}
+
+.sort_btns_wrapper button {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  text-transform: capitalize;
+  /* text secondary */
+  color: #566370;
+  border: none;
+  background-color: transparent;
+  padding: 0 11px 10px 0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.sort_btns_wrapper button:hover {
+  color: #292d7d;
+}
+
+.sort_btns_wrapper {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  text-transform: capitalize;
+
+  /* primary */
+
+  color: #292d7d;
+}
+#activeSort {
+  color: #292d7d;
+}
+#activeSort::after {
+  color: #292d7d;
+  content: "";
+  width: 50px;
+  height: 5px;
+  background-color: #292d7d;
+  border-radius: 4px;
+  display: block;
+  margin: 5px 0 0 0;
+  transition: all 0.5s;
+}
+
+@media screen and (max-width: 1055px) {
+  .feed {
+    margin-top: 35px;
+  }
+}

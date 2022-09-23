@@ -1,0 +1,15 @@
+.profile-header {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  padding: 29px 0;
+}
+.profile {
+  width: 100%;
+  font-family: "SF Pro Display";
+}
+.profile-cont {
+  display: flex;
+  flex-direction: column;
+}

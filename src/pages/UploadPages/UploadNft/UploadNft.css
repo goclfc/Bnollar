@@ -1,0 +1,245 @@
+.upload-nft-cont {
+  display: flex;
+  flex-direction: column;
+}
+.upload-nft-header-cont {
+  width: 100%;
+}
+.uploadNft-header {
+  display: flex;
+  justify-content: space-between;
+}
+.upload-nft-inner-cont {
+  width: 540px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upload-nft-inner-img-cont {
+  width: 235px;
+  position: relative;
+}
+.upload-nft-inner-img-cont img {
+  width: 100%;
+}
+.nft-corner-logo-cont {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 84px;
+  height: 36px;
+  background: #ffffff;
+  /* line */
+  border: 1px solid #f0f3f4;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.nft-corner-logo-cont img {
+  width: 16px;
+  height: 16px;
+}
+.nft-corner-logo-cont p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  margin: 0 4px;
+  color: #000000;
+}
+.upload-nft-name-input-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 50px;
+}
+.upload-nft-name-input-cont label {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  letter-spacing: 0.004em;
+  color: #000000;
+}
+.upload-nft-name-input-cont input {
+  width: 100%;
+  height: 52px;
+  border: 0;
+  outline: 0;
+  padding: 0 10px;
+  background: #ffffff;
+  border: 1px solid #e2e5eb;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.upload-nft-name-input-cont input:focus,
+.upload-nft-external-link-input-cont input:focus,
+.upload-nft-decription-input-cont input:focus {
+  border: 1px solid #292d7d;
+}
+.upload-nft-external-link-input-cont,
+.upload-nft-decription-input-cont,
+.blokchain-select-cont,
+.suply-select-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 25px;
+}
+.upload-nft-external-link-input-cont label,
+.upload-nft-decription-input-cont label,
+.blokchain-select-cont label,
+.suply-select-cont label {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  letter-spacing: 0.004em;
+
+  color: #000000;
+}
+.upload-nft-external-link-input-cont p,
+.upload-nft-decription-input-cont p,
+.suply-select-cont p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  margin-top: 5px;
+  letter-spacing: 0.004em;
+  color: #7a8290;
+}
+.upload-nft-external-link-input-cont input,
+.blokchain-select-cont select,
+.suply-select-cont select {
+  width: 100%;
+  height: 52px;
+  border: 0;
+  outline: 0;
+  background: #ffffff;
+  border: 1px solid #e2e5eb;
+  border-radius: 10px;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+.upload-nft-decription-input-cont input {
+  width: 100%;
+  height: 52px;
+  border: 0;
+  outline: 0;
+  background: #ffffff;
+  border: 1px solid #e2e5eb;
+  border-radius: 10px;
+  padding: 0 10px;
+  margin-top: 10px;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+.upload-nft-footer {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.upload-nft-back-btn {
+  text-decoration: none;
+  width: 144px;
+  height: 56px;
+  background: rgba(41, 45, 125, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* text secondary */
+
+  color: #566370;
+}
+.upload-nft-upload-btn {
+  width: 144px;
+  height: 56px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  background: #292d7d;
+  border-radius: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 548px) {
+  .upload-nft-inner-cont {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 504px) {
+  .upload-nft-inner-cont {
+    width: 490px;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  .upload-nft-inner-cont {
+    width: 470px;
+  }
+}
+
+@media screen and (max-width: 477px) {
+  .upload-nft-inner-cont {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 461px) {
+  .upload-nft-inner-cont {
+    width: 430px;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .upload-nft-inner-cont {
+    width: 410px;
+  }
+}
+@media screen and (max-width: 415px) {
+  .upload-nft-inner-cont {
+    width: 390px;
+  }
+}
+@media screen and (max-width: 394px) {
+  .upload-nft-inner-cont {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 386px) {
+  .upload-nft-inner-cont {
+    width: 360px;
+  }
+}

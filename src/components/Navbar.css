@@ -1,0 +1,28 @@
+.navbar {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_left {
+  display: flex;
+  align-items: center;
+}
+
+.username_activeStatus {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar_pfrofile {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.navbar_right {
+  display: flex;
+  align-items: center;
+}
+.phone_icon {
+    margin-right: 10px;
+}

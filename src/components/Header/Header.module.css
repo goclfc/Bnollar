@@ -1,0 +1,93 @@
+.navbar {
+  width: 100%;
+  height: 95px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LogoContainer {
+  width: 255px;
+  display: flex;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 255px;
+}
+
+.LogoContainer input {
+  margin-left: 10px;
+  width: 201px;
+  height: 44px;
+  background: #ffffff;
+  opacity: 0.5;
+  border: 1px solid #d1d9dd;
+  box-sizing: border-box;
+  border-radius: 44px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: black;
+}
+
+.UploadBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 118px;
+  height: 44px;
+  padding: 14px 24px 13px;
+  /* background: rgba(220, 221, 226, 0.966); */
+  color: #292d7d;
+  border-radius: 44px;
+  border: none;
+  font-family: myFont;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  background: rgba(41, 45, 125, 0.1);
+  font-weight: bold;
+  letter-spacing: 0.004em;
+}
+
+.UploadBtn:hover {
+  cursor: pointer;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.iconBtn {
+  background: transparent;
+  border: none;
+}
+
+.iconBtn:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1056px) {
+  .LogoContainer input {
+    width: 140px;
+    height: 44px !important;
+  }
+  .btnContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 190px;
+  }
+}

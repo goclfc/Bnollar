@@ -1,0 +1,316 @@
+.login-page__wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.login-left__wrapper {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.login-page__content {
+  width: 350px;
+  height: 466px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.login-page__welcome {
+  position: relative;
+  padding-bottom: 20px;
+}
+.login-page__welcome h1 {
+  font-family: "SF Pro Display";
+  font-weight: 500;
+  font-size: 24px;
+}
+.login-page__welcome a {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  position: absolute;
+  top: 33px;
+  text-decoration: none;
+  color: #7a8290;
+}
+.login-inputs__form {
+  display: flex;
+  flex-direction: column;
+}
+.inputs {
+  width: 100%;
+}
+.inputs input {
+  width: 87%;
+  border: 1px solid #e2e5eb;
+  outline: 0;
+  border-radius: 16px;
+  margin: 10px 0 0 0;
+  color: #7a8290;
+  padding: 24px;
+  font-size: 14px;
+}
+
+.signin-link {
+  width: 100%;
+}
+
+.signin-btn {
+  height: 60px;
+  border-radius: 16px;
+  background-color: #292d7d;
+  color: #ffff;
+  width: 100%;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.remember-and-forgot-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0 40px 0;
+}
+.remember-password {
+  display: flex;
+}
+.remember-password p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #566370;
+  margin-left: 5px;
+}
+.remember-and-forgot-password a {
+  text-decoration: none;
+  color: #292d7d;
+
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.sign-up p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #566370;
+}
+.sign-up a {
+  text-decoration: none;
+
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 5px;
+  color: #292d7d;
+}
+.login-right__wrapper {
+  width: 50%;
+  background: #292d7d;
+}
+.welcome-sircles {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.elipse1 {
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  z-index: 1000;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.03);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation: rotate 35s ease forwards infinite;
+}
+
+.elipse2 {
+  width: 460px;
+  height: 460px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.03);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation: rotatex 30s infinite;
+}
+
+.elipse3 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.03);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rotatex 25s infinite;
+}
+
+.elipse4 {
+  width: 229px;
+  height: 229px;
+  border-radius: 50%;
+
+  box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.04);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation: rotate 15s ease forwards infinite;
+}
+.elipse5 {
+  width: 128px;
+  position: absolute;
+}
+.elipse5 img {
+  width: 100%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(50deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotatex {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(-50deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.ellipse6-div {
+  width: 50px;
+  position: absolute;
+  top: 30%;
+  right: -6%;
+}
+.ellipse6 {
+  width: 100%;
+}
+
+.elipse7-div {
+  width: 50px;
+  position: absolute;
+  left: 1%;
+  top: 20%;
+}
+.ellipse7 {
+  width: 100%;
+}
+
+.elipse8-div {
+  width: 50px;
+  position: absolute;
+  top: -11%;
+  left: 50%;
+  z-index: 1000;
+}
+.ellipse8 {
+  width: 100%;
+}
+
+.elipse9-div {
+  width: 50px;
+  position: absolute;
+  top: 70%;
+  left: 1%;
+  z-index: 1000;
+}
+.ellipse9 {
+  width: 100%;
+}
+
+.ellipse10-div {
+  width: 50px;
+  position: absolute;
+  top: 70%;
+  left: 2%;
+}
+.ellipse10 {
+  width: 100%;
+}
+
+.ellipse11-div {
+  width: 50px;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+.ellipse11 {
+  width: 100%;
+}
+
+.ellipse12-div {
+  width: 50px;
+  position: absolute;
+  top: 80%;
+  right: 10%;
+}
+.ellipse12 {
+  width: 100%;
+}
+
+.ellipse13-div {
+  width: 50px;
+  position: absolute;
+  top: 80%;
+  right: 10%;
+}
+.ellipse13 {
+  width: 100%;
+}

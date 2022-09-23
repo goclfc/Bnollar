@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.postPage {
+  padding: 27px 12vw 0 12vw;
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logoContainer {
+  display: flex;
+}
+.navContainer {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 44px;
+  height: 44px;
+}
+.search {
+  border: 1px solid rgb(209, 217, 221, 0.5);
+  border-radius: 50px;
+  padding-left: 16px;
+  margin-left: 10px;
+  color: #8b98a5;
+}
+.search::placeholder {
+  color: #8b98a5;
+}
+.navContainer * {
+  margin-left: 20px;
+}
+.icons {
+  fill: Solid #566370;
+}
+.strongText {
+  color: #000000;
+}
+.lightText {
+  color: #8b98a5;
+}
+.uploadBtn {
+  border: 0;
+  height: 44px;
+  width: 118px;
+  left: 0px;
+  top: 0px;
+  border-radius: 44px;
+  padding: 14px, 24px, 13px, 24px;
+  color: #292d7d;
+}
+
+.content {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: row;
+  max-height: 44vw;
+}
+.productImg {
+  max-width: 44vw;
+  border-radius: 16px;
+}
+
+.commentsComtainer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 27px;
+}
+.commentList {
+  overflow: auto;
+}
+.commentListItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #f0f3f4;
+}
+
+.nameAndComent {
+  margin-left: 10px;
+}
+.iconsContainer {
+  border-top: 1px solid #f0f3f4;
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  padding-top: 19px;
+}
+.bookmark {
+  margin-left: auto;
+}
+.likes {
+  margin-top: 13px;
+}
+.inputContainer {
+  display: flex;
+  border: 1px solid #e2e5eb;
+  margin-top: 16px;
+  border-radius: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.inputContainer img {
+  margin-left: auto;
+  margin-right: 17px;
+}
+.inputContainer input {
+  border: 0;
+  margin-left: 16px;
+  width: 100%;
+  padding-right: 10px;
+  border: 0;
+  outline: 0;
+}
+.commentIcons {
+  margin-right: 15px;
+}
+
+.morePostsText {
+  margin-top: 58px;
+}
+.morePostsContainer {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 63px;
+}
+
+.morePostsContainer img {
+  max-width: 23.92%;
+}

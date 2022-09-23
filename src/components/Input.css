@@ -1,0 +1,37 @@
+.input {
+  position: absolute;
+  bottom: 5px;
+  background: #ffffff;
+  border: 1px solid #e2e5eb;
+  box-sizing: border-box;
+  border-radius: 16px;
+  display: flex;
+  width: 70%;
+  height: 52px;
+  align-items: center;
+}
+
+.textbox {
+  display: flex;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+
+   margin-left: 20px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #7a8290;
+}
+
+.btn_vector1 {
+    margin-right: 7px;
+}
+
+.send_btn {
+  padding-right: 5px;
+}

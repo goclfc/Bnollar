@@ -1,0 +1,35 @@
+
+@media screen and (max-width:1300px){
+    .login-right__wrapper {
+        display: none;
+
+    }
+    .login-left__wrapper {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:356px){
+ 
+    .login-page__content {
+        Width:320px;
+        height:466px;
+    }
+}
+
+@media screen and (max-width:326px){
+ 
+    .login-page__content {
+        Width:270px;
+        height:466px;
+    }
+}
+
+@media screen and (max-width:266px){
+ 
+    .login-page__content {
+        Width:240px;
+        height:466px;
+    }
+}

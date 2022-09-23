@@ -1,0 +1,138 @@
+.ProfileContainer {
+  text-align: center;
+  margin: auto;
+  max-width: 906px;
+  margin-top: 70px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 2px 0px;
+}
+
+.username {
+  font-size: 14px;
+  line-height: 18px;
+  color: #566370;
+  margin: 2px 0px;
+}
+
+.description {
+  width: 200px;
+  margin: 30px auto;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+
+  text-align: center;
+  letter-spacing: 0.004em;
+
+  color: #000000;
+}
+
+.btnContainer {
+  margin-top: 16px;
+}
+
+.btnContainer button {
+  width: 124px;
+  height: 40px;
+  border-radius: 44px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.004em;
+  text-align: center;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.editBtn {
+  width: 124px;
+  height: 40px;
+  left: 38px;
+  top: 123px;
+
+  background: #ffffff;
+  /* line */
+
+  border: 1px solid #e6e6e6;
+  border-radius: 52px;
+
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  text-align: center;
+  letter-spacing: 0.004em;
+
+  color: #292d7d;
+}
+
+.posted {
+  display: flex;
+  align-items: bottom !important;
+  padding: 0 !important;
+  margin-top: 60px;
+  width: 100%;
+}
+
+.buttonCont {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: bottom;
+  align-items: bottom;
+}
+.posted button {
+  width: 100%;
+  height: 44px !important;
+  border: none;
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: top !important;
+  cursor: pointer;
+
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  letter-spacing: 0.004em;
+
+  color: #566370;
+}
+
+.inactive {
+  height: 2px;
+  width: 100%;
+  background: #f0f3f4;
+}
+
+.active {
+  height: 2px;
+  width: 100%;
+  background: #292d7d;
+}
+.span1 {
+  margin: 0 10px !important;
+}
+
+@media screen and (max-width: 960px) {
+  .posted button {
+    /* width: 100%; */
+  }
+}

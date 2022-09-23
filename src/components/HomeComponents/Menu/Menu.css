@@ -1,0 +1,68 @@
+.left-bar-menu__wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+.left-bar-menu__wrapper li {
+    list-style: none; 
+    display: flex;
+    border-radius: 58px;
+        
+}
+.left-bar-menu__wrapper li  a {
+    list-style: none;
+    width: 100%;
+    border-radius:58px;
+    height: 44px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    margin: 2px 0 0 0;
+    color: #566370;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-decoration: none;
+}
+
+.left-bar-menu__wrapper li:hover {
+    background: rgba(41, 45, 125, 0.1);
+}
+.left-bar-menu__wrapper li img {
+    margin: 0 10px;
+}
+
+.log-out-btn {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius:58px;
+    height: 44px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #566370;
+   
+   
+}
+.log-out-btn:hover {
+    
+    background: rgba(41, 45, 125, 0.1);
+}
+.log-out-btn img {
+    margin: 0 10px;
+   
+}   
+
+.log-out-btn-link {
+    text-decoration: none;
+}

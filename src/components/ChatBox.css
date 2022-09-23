@@ -1,0 +1,30 @@
+.chatbox {
+  display: flex;
+  flex-direction: column;
+  height: calc(65vh - 150px);
+}
+
+.chatbox_message {
+  display: flex;
+  padding: 9px 16px 10px;
+  border-radius: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  margin-bottom: 15px;
+}
+
+.position_left {
+  background: #292d7d;
+  position: relative;
+  left: 0;
+  color: white;
+}
+.position_right {
+  background: rgba(122, 130, 144, 0.1);
+  color: black;
+  display: flex;
+  align-self: flex-end;
+}

@@ -1,0 +1,36 @@
+.left-bar__wrapper {
+    width: 255px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     position: sticky;
+   top: 4.5%;
+
+
+}
+.logo a img {
+    cursor: pointer;
+}
+.search-and-logo__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.search-input {
+    width: 201px;
+}
+.search-input input {
+    width: 80%;
+    height: 44px;
+    border-radius: 44px;
+    border: 1px solid #D1D9DD;
+    outline: none;
+    color: #8B98A5;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0 19px;
+    line-height: 18px;
+}
+

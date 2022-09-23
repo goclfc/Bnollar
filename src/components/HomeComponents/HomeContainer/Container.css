@@ -1,0 +1,19 @@
+.container {
+  max-width: 1110px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1055px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 839px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}

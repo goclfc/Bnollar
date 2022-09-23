@@ -1,0 +1,12 @@
+@media screen and (max-width:1055px) {
+    .right-bar__wrapper {
+       display: none;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .right-bar__wrapper {
+        height: 130vh;
+    }
+}

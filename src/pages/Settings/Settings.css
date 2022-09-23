@@ -1,0 +1,147 @@
+.settings-cont {
+  display: flex;
+  flex-direction: column;
+  padding-top: 22px;
+}
+.settings-header {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+}
+.settings-menu {
+  width: 255px;
+  padding: 0 20px;
+  margin: 0;
+  height: 80vh;
+  border-right: #f0f3f4 solid 2px;
+}
+.settings-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+}
+.settings {
+  width: 308px;
+  height: 354px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: #f0f3f4 solid 2px;
+}
+.setting {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 58px;
+  height: 44px;
+  transition: all 0.3s;
+}
+.setting:hover {
+  background: rgba(41, 45, 125, 0.1);
+}
+
+.setting-icon img {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.setting-title h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #566370;
+  cursor: pointer;
+}
+
+.settings-right-wrapper {
+  width: 460px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-cont {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.settings-right-icon {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.settings-right-title h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  cursor: pointer;
+
+  /* Black */
+
+  color: #101419;
+}
+.settings-right-title p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+  cursor: pointer;
+
+  /* text secondary */
+
+  color: #566370;
+}
+
+.settings-title-resp {
+  display: none;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.settings-title-resp img {
+  margin: 0 20px;
+}
+
+.settings-title-resp h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 10px 70px;
+  color: #272a37;
+}
+
+@media screen and (max-width: 626px) {
+  .settings-header {
+    display: none !important;
+  }
+  .settings-menu {
+    display: none !important;
+  }
+  .settings-title-resp {
+    display: flex;
+  }
+
+  .settings-right-wrapper {
+    display: none;
+  }
+  .settings {
+    border-right: none;
+  }
+  .setting {
+    margin-right: 30px;
+  }
+}

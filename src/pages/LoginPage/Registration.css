@@ -1,0 +1,95 @@
+.registration-wrapper {
+    width: 350px;
+    height:588px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.registration-header {
+    display: flex;
+    flex-direction: column;
+
+}
+.registration-header h1 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+.sign-in {
+    display: flex;
+    margin-top: 10px;
+}
+.sign-in p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color:  #7A8290;
+}
+.sign-in a {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color:#292D7D;
+    margin-left: 5px;
+    
+}
+.registration-inputs {
+    width: 85.7%;
+    margin-bottom: 20px;
+}
+.registration-inputs input {
+    width: 100%;
+   border: 1px solid #E2E5EB;
+   outline: 0;
+   border-radius:16px;
+   margin: 10px 0 0 0;
+   color: #7A8290;
+    padding: 24px;
+    font-size: 14px;    
+}
+
+.privacy-policy {
+   width:288px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 10px 0;
+}
+.privacy-policy a {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: #7A8290;
+}
+.register-submit-button {
+    height: 60px;
+    border-radius: 16px;
+    background-color: #292D7D;
+    color: #ffff;
+    width: 100%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
