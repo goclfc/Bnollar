@@ -2,8 +2,10 @@
   width: 100%;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0.0001px 7px #a8a8a8;
-  height: 50px;
+  /* height: 50px; */
   display: none;
+  padding: 0 10px;
+  padding: 10px 10px;
 }
 .home-resp-logo {
   display: flex;
@@ -12,11 +14,14 @@
 }
 .resp-menu {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
 }
 .resp-menu a {
-  width: 33px;
-  height: 23px;
-  padding: 0 7px;
+  width: 23px;
 }
 
 .resp-menu a img {
@@ -29,9 +34,9 @@
 
 .resp-upload a {
   text-decoration: none;
-  position: absolute;
+  /* position: absolute;
   top: 20%;
-  right: 37%;
+  right: 37%; */
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -53,14 +58,18 @@
 .resp-bell-chat {
   display: flex;
   align-items: center;
-  margin: 0 20px 0 0;
+  margin: 0 10px 0 0;
+  width: 15%;
+  justify-content: space-between;
 }
 .resp-bell-chat a {
   width: 20px;
   height: 20px;
   font-size: 25px;
-  padding: 10px;
   color: rgb(112, 112, 112);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .resp-bell-chat a img {
@@ -68,11 +77,13 @@
 }
 .resp-profile-img {
   width: 40px;
-  height: 40px;
+  /* height: 40px; */
+  text-decoration: none;
 }
 
 .resp-profile-img img {
-  width: 100%;
+  width: 100% !important;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1055px) {
@@ -93,45 +104,26 @@
     width: 30px;
     height: 30px;
   }
-
-  .resp-bell-chat a {
-    width: 17px;
-    height: 17px;
-    font-size: 2px;
-    padding: 10px;
-  }
 }
 
 @media screen and (max-width: 396px) {
-  .resp-upload label {
-    width: 30px;
-    height: 36px;
-    top: 25%;
+  .resp-menu {
+    width: 30%;
   }
   .resp-menu a {
-    width: 28px;
-    height: 28px;
-    margin-top: 17px;
+    margin: 0 5px;
   }
 
   .resp-bell-chat a {
-    width: 17px;
-    height: 17px;
     font-size: 20px;
-    padding: 8px;
+    padding: 1px;
   }
 }
 
 @media screen and (max-width: 384px) {
-  .resp-upload label {
-    width: 22px;
-    height: 22px;
-    top: 28%;
-    right: 42%;
-  }
   .resp-menu a {
     width: 25px;
-    height: 25px;
+    /* height: 25px; */
     padding: 0 9px 0 0;
   }
 }

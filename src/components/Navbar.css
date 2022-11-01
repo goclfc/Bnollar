@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
 }
 .navbar_left {
   display: flex;
@@ -24,5 +25,5 @@
   align-items: center;
 }
 .phone_icon {
-    margin-right: 10px;
+  margin-right: 10px;
 }

@@ -17,14 +17,14 @@ function RespNavbar() {
       </div>
 
       <div className='resp-menu'>
-        <a href='/'>
+        <Link to='/'>
           {" "}
           <img src={Home} alt='' />{" "}
-        </a>
-        <a href='/'>
+        </Link>
+        <Link to='/explore'>
           {" "}
           <img src={Explore} alt='' />{" "}
-        </a>
+        </Link>
         <Link to={"/settings"}>
           <a href='/'>
             {" "}
@@ -49,19 +49,18 @@ function RespNavbar() {
           {" "}
           <HiBell />{" "}
         </a>
-        <a href='/'>
+        <Link to='/chat'>
           {" "}
           <img src={Chat} alt='' />
-        </a>
-        <div className='resp-profile-img'>
-          <Link to={"/profile-User"}>
-            {" "}
-            <img
-              src='https://res.cloudinary.com/dzxxb95vy/image/upload/v1648466490/Ellipse_1_ztlkcf.png'
-              alt='img'
-            />
-          </Link>
-        </div>
+        </Link>
+      </div>
+      <div className='resp-profile-img'>
+        <Link to={"/profile-User"}>
+          <img
+            src='https://res.cloudinary.com/dzxxb95vy/image/upload/v1648466490/Ellipse_1_ztlkcf.png'
+            alt='img'
+          />
+        </Link>
       </div>
     </div>
   );

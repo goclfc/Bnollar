@@ -79,6 +79,13 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1120px) {
+  .navbar {
+    padding: 0 10px;
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 1056px) {
   .LogoContainer input {
     width: 140px;
