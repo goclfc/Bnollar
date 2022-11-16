@@ -19,7 +19,7 @@ import "./Explore.css";
 function Explore() {
   return (
     <Container>
-      <div style={{ width: "100%", margin: "0px auto" }}>
+      <div style={{ width: "100%", margin: "0px auto"  }}>
         <Header />
         <div className='container_explore'>
           <div>

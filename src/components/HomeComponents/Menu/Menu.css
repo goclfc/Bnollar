@@ -7,6 +7,7 @@
     list-style: none; 
     display: flex;
     border-radius: 58px;
+    width: 100%;
         
 }
 .left-bar-menu__wrapper li  a {

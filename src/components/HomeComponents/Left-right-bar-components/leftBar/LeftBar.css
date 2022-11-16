@@ -1,6 +1,6 @@
 .left-bar__wrapper {
     width: 255px;
-    height: 300px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,17 +20,21 @@
     width: 201px;
 }
 .search-input input {
-    width: 80%;
+    width: 100%;
     height: 44px;
     border-radius: 44px;
-    border: 1px solid #D1D9DD;
+    border: 1px solid #e8eaeb;
     outline: none;
-    color: #8B98A5;
+    color: #8a97a3;
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    padding: 0 19px;
+    font-size: 15px;
+    padding: 0 10px;
     line-height: 18px;
+    font-weight: 200;
+}
+.search-input input::placeholder{
+    color: #c0c6cc;
 }
 

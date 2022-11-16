@@ -16,7 +16,7 @@ function LeftBar() {
           </a>
         </div>
         <div className='search-input'>
-          <input type='text' placeholder='Search' />
+          <input type='text' placeholder='Search...' />
         </div>
       </div>
       {/**********************************************************/}

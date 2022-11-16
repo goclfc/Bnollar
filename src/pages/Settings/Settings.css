@@ -1,17 +1,16 @@
 .settings-cont {
   display: flex;
   flex-direction: column;
-  padding-top: 22px;
 }
 .settings-header {
   width: 100% !important;
   display: flex;
   justify-content: space-between !important;
   align-items: flex-start !important;
+
 }
 .settings-menu {
   width: 255px;
-  padding: 0 20px;
   margin: 0;
   height: 80vh;
   border-right: #f0f3f4 solid 2px;
@@ -20,6 +19,7 @@
   display: flex;
   justify-content: space-between;
   width: 98%;
+  margin-top: 9px;
 }
 .settings {
   width: 308px;
@@ -30,7 +30,7 @@
   border-right: #f0f3f4 solid 2px;
 }
 .setting {
-  width: 80%;
+  width: 90%;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -40,6 +40,7 @@
 }
 .setting:hover {
   background: rgba(41, 45, 125, 0.1);
+
 }
 
 .setting-icon img {

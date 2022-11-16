@@ -22,7 +22,6 @@ function Settings() {
 
       <div className='settings-content-wrapper'>
         <Menu className='settings-menu' />
-
         <div className='settings'>
           <div className='settings-title-resp'>
             <Link to={"/home"}>
