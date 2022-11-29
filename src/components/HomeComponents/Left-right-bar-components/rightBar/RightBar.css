@@ -4,7 +4,9 @@
   height: 95vh;
   flex-direction: column;
   position: sticky;
-  top: 4.5%;
+  top: 1%;
+  margin-top: 29px;
+
 }
 .right-bar__wrapper::-webkit-scrollbar {
   display: none;
