@@ -12,10 +12,10 @@ import { useState } from "react";
 function Post() {
   const [refresh, setRefresh] = useState(true);
   function addToFavorites(post) {
-    post.bookmarked = true;
+    post.favorite = true;
   }
   function removeFromFavorites(post) {
-    post.bookmarked = false;
+    post.favorite = false;
   }
   return (
     <div className="post-main__wrapper">
@@ -62,7 +62,7 @@ function Post() {
                     <img src={Send} alt="heart" />
                   </div>
 
-                  {post.bookmarked ? (
+                  {post.favorite ? (
                     <img
                       className="stroke"
                       src={StrokeFilled}
