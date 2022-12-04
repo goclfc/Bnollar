@@ -10,35 +10,35 @@ import bookmark from "../../assets/Bookmark.svg";
 
 function Content() {
   return (
-    <div className='content'>
-      <img src={productImg} className='productImg'></img>
-      <div className='commentsComtainer'>
-        <ul className='commentList'>
-          <li className='comment1 commentListItem'>
-            <img src={commentPic1} className=''></img>
-            <div className='nameAndComent'>
-              <p className='name'>Michael</p>
-              <p className='commentText'>@mmichael24</p>
+    <div className="content">
+      <img src={productImg} className="productImg"></img>
+      <div className="commentsComtainer">
+        <ul className="commentList">
+          <li className="comment1 commentListItem">
+            <img src={commentPic1} className=""></img>
+            <div className="nameAndComent">
+              <p className="name">Michael</p>
+              <p className="commentText">@mmichael24</p>
             </div>
           </li>
-          <li className='comment2 commentListItem'>
-            <img src={commentPic2} className=''></img>
-            <div className='nameAndComent'>
-              <p className='name'>Michael</p>
-              <p className='commentText'>Love it</p>
+          <li className="comment2 commentListItem">
+            <img src={commentPic2} className=""></img>
+            <div className="nameAndComent">
+              <p className="name">Michael</p>
+              <p className="commentText">Love it</p>
             </div>
           </li>
         </ul>
-        <div className='iconsContainer'>
-          <img src={heart} className='commentIcons'></img>
-          <img src={comment} className='commentIcons'></img>
-          <img src={paper} className='commentIcons'></img>
-          <img src={bookmark} className='bookmark'></img>
+        <div className="iconsContainer">
+          <img src={heart} className="commentIcons"></img>
+          <img src={comment} className="commentIcons"></img>
+          <img src={paper} className="commentIcons"></img>
+          <img src={bookmark} className="bookmark"></img>
         </div>
-        <p className='likes'>5 likes</p>
-        <div className='inputContainer'>
-          <input placeholder='Write your comment'></input>
-          <img src={send} className='send'></img>
+        <p className="likes">5 likes</p>
+        <div className="inputContainer">
+          <input placeholder="Write your comment"></input>
+          <img src={send} className="send"></img>
         </div>
       </div>
     </div>
