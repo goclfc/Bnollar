@@ -22,7 +22,7 @@
 .description {
   width: 200px;
   margin: 30px auto;
-  font-family: "SF Pro Display";
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -131,8 +131,4 @@
   margin: 0 10px !important;
 }
 
-@media screen and (max-width: 960px) {
-  .posted button {
-    /* width: 100%; */
-  }
-}
+
