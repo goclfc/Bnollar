@@ -25,7 +25,7 @@ function LoginPage() {
             </div>
             <div className='login-page__welcome'>
               <h1>Welcome back</h1>
-              <a href='#'>Sign in to your account</a>
+              <p >Sign in to your account</p>
             </div>
             <form className='login-inputs__form' onSubmit={submitHandler}>
               <div className='inputs'>
