@@ -27,12 +27,12 @@
   padding-bottom: 20px;
 }
 .login-page__welcome h1 {
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-weight: 500;
   font-size: 24px;
 }
 .login-page__welcome p {
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -69,7 +69,7 @@
   background-color: #292d7d;
   color: #ffff;
   width: 100%;
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -90,7 +90,7 @@
   display: flex;
 }
 .remember-password p {
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -103,7 +103,7 @@
   text-decoration: none;
   color: #292d7d;
 
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -116,7 +116,7 @@
   padding: 10px 0;
 }
 .sign-up p {
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -127,7 +127,7 @@
 .sign-up a {
   text-decoration: none;
 
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;

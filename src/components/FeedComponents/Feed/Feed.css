@@ -7,6 +7,8 @@
   margin: 25px auto;
 }
 
+
+
 .sort_btns_wrapper {
   display: flex;
   align-items: flex-start;
@@ -18,7 +20,7 @@
 }
 
 .sort_btns_wrapper button {
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

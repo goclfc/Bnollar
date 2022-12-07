@@ -17,7 +17,7 @@
   margin-top: 60px;
 }
 .upload-text-cont h1 {
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -30,7 +30,7 @@
 }
 
 .upload-text-cont p {
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -89,7 +89,7 @@
 }
 .upload-post-text h1,
 .upload-nft-text h1 {
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -101,7 +101,7 @@
 
 .upload-post-text p,
 .upload-nft-text p {
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

@@ -12,7 +12,7 @@
 }
 
 .profile_item_title {
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;

@@ -8,7 +8,7 @@
     padding: 15px;
 }
 .topnfts-title h1 {
-    font-family: 'SF Pro Display';
+    font-family: 'SF Pro Display' sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -35,7 +35,7 @@
     cursor: pointer;
 }
 .nft-profile-name a {
-    font-family: 'SF Pro Display';
+    font-family: 'SF Pro Display' sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;

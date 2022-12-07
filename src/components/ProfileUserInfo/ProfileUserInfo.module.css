@@ -64,7 +64,7 @@
   border: 1px solid #e6e6e6;
   border-radius: 52px;
 
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -104,7 +104,7 @@
   align-items: top !important;
   cursor: pointer;
 
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

@@ -25,7 +25,7 @@
   margin-left: 5px;
 }
 .post-profile-name {
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -35,7 +35,7 @@
 }
 .post-profile-nickname {
   text-decoration: none;
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -87,7 +87,7 @@
 .likes-counter {
   margin: 10px 0 0 0;
 
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 14px;
@@ -109,7 +109,7 @@
   outline: 0;
   height: 52px;
   padding: 0 12px;
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   border-radius: 20px;
   font-style: normal;
   font-weight: 100;

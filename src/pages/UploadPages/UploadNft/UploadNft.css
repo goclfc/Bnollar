@@ -44,7 +44,7 @@
   height: 16px;
 }
 .nft-corner-logo-cont p {
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -61,7 +61,7 @@
   margin-top: 50px;
 }
 .upload-nft-name-input-cont label {
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -100,7 +100,7 @@
 .upload-nft-decription-input-cont label,
 .blokchain-select-cont label,
 .suply-select-cont label {
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -114,7 +114,7 @@
 .upload-nft-external-link-input-cont p,
 .upload-nft-decription-input-cont p,
 .suply-select-cont p {
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -166,7 +166,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 14px;
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -180,7 +180,7 @@
 .upload-nft-upload-btn {
   width: 144px;
   height: 56px;
-  font-family: "SF Pro Display";
+  font-family: "SF Pro Display" sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
