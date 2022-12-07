@@ -2,6 +2,7 @@ import React from "react";
 import "./Swipe_Profiles.css";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Scrollbar } from 'swiper';
 import "swiper/css";
 const SwipeProfiles = () => {
   const profiles = [
@@ -79,8 +80,11 @@ const SwipeProfiles = () => {
   return (
     <>
       <Swiper
+      modules={[Navigation, Scrollbar]}
         spaceBetween={30}
         slidesPerView={8}
+        navigation
+        scrollbar={{ draggable: true }}
         style={{ width: "100%", paddingLeft: "20px" }}>
         {profiles.map((item, index) => {
           return (
