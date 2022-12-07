@@ -1,3 +1,18 @@
+
+
+
+
+
+
+
+
+
+.hr-bar{
+    height: 0.2px;
+    background-color: #F0F3F4;
+    margin: 20px 0px;
+    border: none;
+}
 .left-bar-menu__wrapper {
     display: flex;
     flex-direction: column;
@@ -55,7 +70,6 @@
    
 }
 .log-out-btn:hover {
-    
     background: rgba(41, 45, 125, 0.1);
 }
 .log-out-btn img {

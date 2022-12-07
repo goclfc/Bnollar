@@ -36,6 +36,7 @@ function Menu(props) {
             </a>
           </Link>
         </li>
+        <hr className="hr-bar" />
         <li>
           <Link className='log-out-btn-link' to={"/login"}>
             {" "}
