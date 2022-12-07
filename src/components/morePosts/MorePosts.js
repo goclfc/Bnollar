@@ -7,10 +7,10 @@ import pic4 from "../../assets/Rectangle 6619.png"
 function MorePosts() {
   return (
     <div className='morePostsContainer'>
-      <img src={pic1} alt="post picture"></img>
-      <img src={pic2} alt="post picture"></img>
-      <img src={pic3} alt="post picture"></img>
-      <img src={pic4} alt="post picture"></img>
+      <img src={pic1} alt="post"></img>
+      <img src={pic2} alt="post"></img>
+      <img src={pic3} alt="post"></img>
+      <img src={pic4} alt="post"></img>
     </div>
   )
 }
