@@ -15,7 +15,7 @@ function Content() {
       <div className="commentsComtainer">
         <ul className="commentList">
           <li className="comment1 commentListItem">
-            <img src={commentPic1} className=""></img>
+            <img src={commentPic1} alt='comentPic' className=""></img>
             <div className="nameAndComent">
               <p className="name">Michael</p>
               <p className="commentText">@mmichael24</p>

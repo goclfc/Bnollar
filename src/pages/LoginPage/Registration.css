@@ -13,7 +13,7 @@
 
 }
 .registration-header h1 {
-    font-family: 'SF Pro Display';
+    font-family: 'SF Pro Display' sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -24,7 +24,7 @@
     margin-top: 10px;
 }
 .sign-in p {
-    font-family: 'SF Pro Display';
+    font-family: 'SF Pro Display' sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -33,7 +33,7 @@
     color:  #7A8290;
 }
 .sign-in a {
-    font-family: 'SF Pro Display';
+    font-family: 'SF Pro Display' sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -68,7 +68,7 @@
    padding: 10px 0;
 }
 .privacy-policy a {
-    font-family: 'SF Pro Display';
+    font-family: 'SF Pro Display' sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -83,7 +83,7 @@
     background-color: #292D7D;
     color: #ffff;
     width: 100%;
-    font-family: 'SF Pro Display';
+    font-family: 'SF Pro Display' sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;

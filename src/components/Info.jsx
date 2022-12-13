@@ -5,7 +5,7 @@ import "./Info.css";
 function Info() {
   return (
     <div className="info">
-      <img className="info_img" src={Profile} oalt="" />
+      <img className="info_img" src={Profile} alt="info-img" />
       <div className="info_tags">
         <p className="name_tag">Micael</p>
         <p className="username_tag">@michael123</p>
