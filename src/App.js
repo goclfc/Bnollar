@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/login' element={<LoginPage />} />
-          <Route path='/home' element={<HomePage />} />
+          <Route path='/home/*' element={<HomePage />} />
           <Route path='/settings' element={<Settings />} />
           <Route path='/profile-User' element={<ProfileUserPage />} />
           <Route path='/profile-Guest' element={<ProfileGuestPage />} />

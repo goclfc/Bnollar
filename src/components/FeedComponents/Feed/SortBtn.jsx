@@ -27,6 +27,7 @@ const SortBtn = ({ parent, setActiveState, activeState }) => {
           onMouseOver={() => setHoverBorder(true)}
           onMouseLeave={() => setHoverBorder(false)}
           onClick={() => changeActive()}
+
         >
           {parent}
         </button>
